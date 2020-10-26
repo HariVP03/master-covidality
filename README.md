@@ -12,9 +12,9 @@ Covidality uses a number of open source projects to work properly:
 
 ### The Team
 
-* Harsh Vardhan Shukla - Founder, Head Data Analysist, Mobile appliaction Developer ,Front-end and back-end Developer
-* Hari Vishnu Parashar - Co-founder, Head Developer, Head Web&Server Analysist, front-end and back-end Developer
-* Geetu Munjal - Our Mentor and Teacher.
+* Geetu Munjal - Our teacher, she taught us everything we know
+* Harsh Vardhan Shukla - Founder, Front-end Developer
+* Hari Vishnu Parashar - Co-founder, Head Developer, front-end and back-end Developer
 
 ### Todos
 
