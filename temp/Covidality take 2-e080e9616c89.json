@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covidality-take-2",
+  "private_key_id": "e080e9616c8974a99dc68b6a48caf55fe9bf54c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCc5Su067l8icmN\n1De6SiCiPNcgUP/LvuUE6Bom8xSd3pKk5wRHvgNqvjp3eVHIRL5i9dDVgPneAsgO\nh/WXygOZxv1YJOKGm8fkv8OzY2p6HbjYZjXp4KZD2lpEYJtcltVBf/i2JlSki5ax\nPhRB4+DUc6gpszd2W2AOZgnrN4AK8RLlkN9Pz2iJEKEetd81geRnR6EZ5GfHGrEw\nx005MTDKulpmfXMjc6L0lEDNovmopUid/m3uXMv3Z+VKXc0CjSEiTkdcLdi0JWnY\nVQuslvGm4jMZHFHdCdFLU4jc8UNd+si23EkIVjOXVVLnr0zgIYytCZvIGcs0i+oI\nFVzYe6gdAgMBAAECggEACtP6JztZitHLmkE6M14oUGoYgr90V/Btx9/o5iVCl/6j\nakQTVIw1milUyagSz9qGtTe32PRUylCw0+foODiV9Qf5thqdk6KusgfWDsxerdzd\nQ/oR4HlDoE0yi6OLNWGniCS32oJctxp3JPZe2YlLm/37bh1TR5TY1UWPi69B4/9R\niACQ0ac3JNmnz9quAUFRnD8qyR1mJzkW0MPFJ1CIgXh5GiqowWAUTd4kVWJmMa3m\nyWuZWoy3r+TKdNIXW1XhpeZRRWFr/GURlXhCL510pB9RBW3YdoWGfjl/g5bqxwDL\nrHBzFC92pf2RLr5WZS3wO/cFUY1oy08Reo8R/1nv9QKBgQDZhi0c9fHnIQWuwxIk\nsywaEic2C4dkNUaz9xPAQekL+KeJOCMhc02lbNnUUunL2s4+Cy1sZsDxNt2oShvf\nMgUCqMmlBFXSjDdYmZOlv6owfSa9vEhviTlCBQG6y5FcaHlKwr3iYkP9W2O8AVdD\nSV6IFr550TEP6MnXYksiR9RiJwKBgQC4pZ/STLtxqwLtvpq8uF6SJ1mjeE6t17cC\nC20lNs3mG6d4yvo3pnqudqqe/jgn204oNqaDMOTpQ3wDEKPzDd9IimMBG6OmD2tS\n0EguaI8C16pM9wM1HKF3zMz7AMQ7hfjg/VZnvqlJHNu7cg8SnZdprfAMQSBn8M9x\nPyTQMMcCGwKBgCoEO+STMTW28DUQowmJvmQOy5op4e4eSFjsydjiIlTYo+vidw64\nCfCBNRZJKbXhvuLHH/AHbQ9qzKf8IKQdMlCQL9r7GmTABtTLXXSvr/0Lv5b4rnk0\n5WV2OB5PwfU6jOs+8JSw7Hcc1wfyrltl6aeZ1RMMsFBlY8+BwgeOHl0TAoGBAJRa\n/n5JiJFbhY7fhhP7ToC/fRYKo6yplTDfXWJ5FhW8QmKbM09jQ07JqWz1dMkRO0q0\nHjVqI4IH5qvPwuqWSsBN8B4Dxwi1etWe41/mQoFWJk6QaNNTnahTtJ43j3MDwWOE\nKNhSKFHGDgYdLl8Wn4EZb7Vo3lCk+wdSZJGhn0PhAoGALwW7psqwuYRenCVBwnxu\nlCHhPU6af5YwB5aPf0wRp3DivBx0fobjfUiV3E6aaKp64ll9bzeNPU5AtqDdcurf\nE4CQHGlnTK2z41KwW1T/O6GxlHRshkVXedi0aZ9DZqUx40O80LWc9VVtNkRrJRpo\n2zrKMFunHV83McgQAbFahI4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "covidality2@covidality-take-2.iam.gserviceaccount.com",
+  "client_id": "112866269954766010733",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/covidality2%40covidality-take-2.iam.gserviceaccount.com"
+}
