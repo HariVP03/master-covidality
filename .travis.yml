@@ -14,7 +14,6 @@ env:
   matrix:
     - DJANGO=1.7 DB=mysql
 
-#commands to install dependencies
 install:
   - pip install -q Django==$DJANGO
 
