@@ -1,5 +1,7 @@
 # Covidality
 
+[![Build Status](https://travis-ci.com/HariVP03/master-covidality.svg?token=7brBgU3dURC3SNafYsKb&branch=main)](https://travis-ci.org/joemccann/dillinger)
+
 Covidality is an online service which helps you to keep a track of your health. Fill out daily forms and our AI will generate a report regularly.
 
 ### Tech
