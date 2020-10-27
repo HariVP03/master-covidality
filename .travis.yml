@@ -20,7 +20,6 @@ install:
 
 before_script:
   - mysql -e 'create database travis_ci_db;'
-  - python manage.py syncdb --noinput
 
 #command to run the test suite
 script:
