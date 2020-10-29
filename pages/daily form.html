@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Covidality</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
+    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"></a><label style="font-size: 26px;font-family: Poppins, sans-serif;color: rgb(29, 34, 34);">Covidality</label><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-2">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#" style="margin-left: 0px;margin-bottom: 0px;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Contact us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(255,255,255);">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(255,255,255);">Login/Register</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row mh-100vh">
+            <div class="col-10 col-sm-8 col-md-6 col-lg-6 offset-1 offset-sm-2 offset-md-3 offset-lg-0 align-self-center d-lg-flex align-items-lg-center align-self-lg-stretch bg-white p-5 rounded rounded-lg-0 my-5 my-lg-0" id="login-block">
+                <div class="m-auto w-lg-75 w-xl-50">
+                    <h2 class="text-info font-weight-light mb-5" style="width: 195px;"><i class="fa fa-wpforms"></i>&nbsp;Daily Health Form</h2><label>Employee ID Tag:</label>
+                    <form action="connect.php" method="post">
+                        <div class="form-group"><input class="form-control" type="number" name="emp"></div><label style="width: 182px;">Temperature Reading 1 (Before Leaving Home):</label><input class="form-control" type="integer" name="temp1">
+                        <div class="form-group"><label style="width: 181px;">Are you feeling anything Unusual?</label>
+                            <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1" name="prob" value="y"><label class="form-check-label" for="formCheck-1">Yes</label></div>
+                            <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2" name="prob" value="n"><label class="form-check-label" for="formCheck-1">No</label></div>
+                        </div><label style="width: 181px;">Are you Having:</label>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" name="headache"><label class="form-check-label" for="formCheck-3">Headache</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6" name="fever"><label class="form-check-label" for="formCheck-3">High Fever</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6" name="breathe"><label class="form-check-label" for="formCheck-3">Problem in Breathing</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5" name="cough"><label class="form-check-label" for="formCheck-3">Constant Coughing</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" name="others"><label class="form-check-label" for="formCheck-3">Others</label></div><label style="margin-top: 8px;">If any other problem, please state:</label><input class="form-control"
+                            type="text"name="txtprob"><button class="btn btn-info mt-2" type="submit">Submit</button></form>
+                    <p class="mt-3 mb-0"><a class="text-info small" href="#">Having trouble in filling up the form?</a></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 offset-0 d-flex align-items-end" id="bg-block" style="height: 876px;min-height: 12px;background: url(&quot;assets/img/e2d2dd1a2d2700d6b5cf11c1f765e646.jpg&quot;);color: rgb(7,7,7);">
+                <p class="ml-auto small text-dark mb-2"><em>Photo by&nbsp;</em><a class="text-dark" href="https://unsplash.com/photos/v0zVmWULYTg?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank"><em>Aldain Austria</em></a><br></p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#" style="color: rgb(6,6,6);"><i class="fa fa-instagram" style="background: rgba(255,255,255,0);color: rgb(221,28,15);"></i></a><a href="#" style="color: rgb(11,11,12);"><i class="fa fa-snapchat-ghost" style="color: rgb(255,245,4);"></i></a>
+                <a
+                    href="#"><i class="icon ion-social-twitter" style="color: rgb(11,240,213);"></i></a><a href="#"><i class="icon ion-social-facebook" style="color: rgba(11,8,156,0.75);"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" style="color: rgb(6,6,6);">Home</a></li>
+                <li class="list-inline-item"><a href="#" style="color: rgb(8,8,8);">Services</a></li>
+                <li class="list-inline-item"><a href="#" style="color: rgb(3,3,3);">About</a></li>
+                <li class="list-inline-item"><a href="#" style="color: rgb(6,6,6);">Terms</a></li>
+                <li class="list-inline-item"><a href="#" style="color: rgb(7,7,7);">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Covidality © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
