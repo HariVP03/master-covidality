@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href='www.covidality.tech'><img src="https://i.ibb.co/xsBr2JZ/50736eb0.png" /></a>
+  <img src="https://i.ibb.co/xsBr2JZ/50736eb0.png" />
 </p>
 
 > Covidality is an online service which helps you to keep a track of your health. Fill out daily forms and our AI will generate a report regularly.
