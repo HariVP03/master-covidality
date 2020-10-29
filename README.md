@@ -1,8 +1,24 @@
-# Covidality
 
-[![Build Status](https://travis-ci.com/HariVP03/master-covidality.svg?token=7brBgU3dURC3SNafYsKb&branch=main)](https://travis-ci.org/joemccann/dillinger)
+<p align="center">
+  <img src="https://i.ibb.co/xsBr2JZ/50736eb0.png" />
+</p>
 
-Covidality is an online service which helps you to keep a track of your health. Fill out daily forms and our AI will generate a report regularly.
+[![Build Status](https://travis-ci.com/HariVP03/master-covidality.svg?branch=main)](https://travis-ci.com/HariVP03/master-covidality)
+
+> Covidality is an online service which helps you to keep a track of your health. Fill out daily forms and our AI will generate a report regularly.
+
+### Screenshots
+
+![Website Frontpage](https://i.ibb.co/0JPYfHK/image.png)
+
+![Dashboard](https://i.ibb.co/ZmLww1Y/image.png)
+
+![Mobile App](https://i.ibb.co/VHPKK1Y/image.png)
+
+### Websites
+
+* [Official Website](www.covidality.tech)
+* [Testing Website](https://harivp03.pantherhost.xyz/)
 
 ### Tech
 
@@ -20,7 +36,8 @@ Covidality uses a number of open source projects to work properly:
 
 ### Todos
 
- - Configure Travis CI and connect it to this repository
- - Make the daily forms and connect them to the databse
- - Fix some bugs in the database connector
-
+ - [x] Connect to MySQL via Python
+ - [x] Setup Django templates
+ - [ ] Configure Travis CI and connect it to this repository
+ - [ ] Make the daily forms and connect them to the databse
+ - [ ] Fix some bugs in the database connector
