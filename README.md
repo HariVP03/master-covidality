@@ -38,6 +38,6 @@ Covidality uses a number of open source projects to work properly:
 
  - [x] Connect to MySQL via Python
  - [x] Setup Django templates
- - [ ] Configure Travis CI and connect it to this repository
+ - [x] Configure Travis CI and connect it to this repository
  - [ ] Make the daily forms and connect them to the databse
  - [ ] Fix some bugs in the database connector
