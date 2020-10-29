@@ -5,7 +5,7 @@
 
 > Covidality is an online service which helps you to keep a track of your health. Fill out daily forms and our AI will generate a report regularly.
 
-[![Build Status](https://travis-ci.com/HariVP03/master-covidality.svg?branch=main)](https://travis-ci.com/HariVP03/master-covidality)
+[![Build Status](https://travis-ci.com/HariVP03/master-covidality.svg?branch=main)](https://travis-ci.com/HariVP03/master-covidality) <br><br>
 
 ### Screenshots
 
@@ -17,8 +17,8 @@
 
 ### Websites
 
-* [Official Website](www.covidality.tech)
-* [Testing Website](https://harivp03.pantherhost.xyz/)
+* [Official Website](www.covidality.tech) &nbsp; ![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&up_color=blue&up_message=Online&url=http%3A%2F%2Fwww.covidality.tech%2F)
+* [Testing Website](https://harivp03.pantherhost.xyz/) &nbsp; ![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&up_color=blue&up_message=Online&url=https%3A%2F%2Fharivp03.pantherhost.xyz%2F)
 
 ### Tech
 
@@ -32,7 +32,7 @@ Covidality uses a number of open source projects to work properly:
 
 * Geetu Munjal - Our Teacher, she taught us everything we know
 * Harsh Vardhan Shukla - Founder, Front-end Developer
-* Hari Vishnu Parashar - Co-founder, Head Developer, front-end and back-end Developer
+* Hari Vishnu Parashar - Co-founder, Head Developer, front-end and back-end Developerlabel=Follow&style=social)
 
 ### Todos
 
