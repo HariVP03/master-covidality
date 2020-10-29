@@ -17,7 +17,7 @@
 
 ### Websites
 
-* [Official Website](www.covidality.tech) &nbsp; ![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&up_color=blue&up_message=Online&url=http%3A%2F%2Fwww.covidality.tech%2F)
+* [Official Website](https://www.covidality.tech) &nbsp; ![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&up_color=blue&up_message=Online&url=http%3A%2F%2Fwww.covidality.tech%2F)
 * [Testing Website](https://harivp03.pantherhost.xyz/) &nbsp; ![Website Status](https://img.shields.io/website?down_color=lightgrey&down_message=Offline&up_color=blue&up_message=Online&url=https%3A%2F%2Fharivp03.pantherhost.xyz%2F)
 
 ### Tech
