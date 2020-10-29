@@ -1,25 +1,8 @@
 language: python
 
 python:
-  - "3.4"
-
-services: mysql
-
-env:
-  global:
-    - DJANGO_SETTINGS_MODULE="covidality/covidality/settings.py"
-    - PYTHONPATH="/home/travis/build/HariVP03/master-covidality"
-    - PIP_USE_MIRRORS=true
-    - BUILD_ON_TRAVIS=true
-  matrix:
-    - DJANGO=1.7 DB=mysql
-
-install:
-  - pip install -q Django==$DJANGO
-
-before_script:
-  - mysql -e 'create database travis_ci_db;'
+  - "3.7"
 
 #command to run the test suite
 script:
-  - python covidality/manage.py test
+  - python scripts/AI.py test
