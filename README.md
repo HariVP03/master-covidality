@@ -11,6 +11,10 @@ Covidality is an online service which helps you to keep a track of your health. 
 
 ![Mobile App](https://i.ibb.co/VHPKK1Y/image.png)
 
+### Websites
+
+* [Official Website](www.covidality.tech)
+* [Testing Website](https://harivp03.pantherhost.xyz/)
 
 ### Tech
 
