@@ -7,7 +7,7 @@ services: mysql
 
 env:
   global:
-    - DJANGO_SETTINGS_MODULE="covidality/covidality/settings"
+    - DJANGO_SETTINGS_MODULE="covidality/covidality/settings.py"
     - PYTHONPATH="/home/travis/build/HariVP03/master-covidality"
     - PIP_USE_MIRRORS=true
     - BUILD_ON_TRAVIS=true
