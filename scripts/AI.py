@@ -1,12 +1,5 @@
 ''' 
-   _____                   _       _           _   _   _           
-  / ____|                 (_)     | |         | | (_) | |          
- | |        ___   __   __  _    __| |   __ _  | |  _  | |_   _   _ 
- | |       / _ \  \ \ / / | |  / _` |  / _` | | | | | | __| | | | |
- | |____  | (_) |  \ V /  | | | (_| | | (_| | | | | | | |_  | |_| |
-  \_____|  \___/    \_/   |_|  \__,_|  \__,_| |_| |_|  \__|  \__, |
-                                                              __/ |
-                                                             |___/
+
 This is the Official Covidality AI code.
 
 Please Use the Following Format for Inputting Data:
@@ -68,6 +61,23 @@ def AI(temp_list, howBadDoYouFeel, predict_case):
     # Finally return the prediction based on the training data and the prediction's X Values
     return classifier.predict(predict_case)
 
+def test():
+
+    try:
+        # Initial Temperature, Final Temperature
+        features = [[1, 2], [2, 9], [3, 5], [5, 6]]
+        # How Bad are you Feeling?
+        labels = [9, 5, 4, 11]
+        # Here 2 is the initial temperature and 10 is how bad you are feeling
+        predict_this = [[1, 6]]
+
+        # Initial Temperature, Feeling ELement
+        AI(features, labels, predict_this)
+
+        print(True)
+    except:
+
+        raise ReferenceError
 
 '''
 
