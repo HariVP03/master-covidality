@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Covidality | Daily Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Covidality Daily Form</h2>
+  <form class="form-horizontal" action="fill_form" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name:</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+    </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="Age">Age:</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="Age" placeholder="Enter age" name="age">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="temp1">Temperature 1:</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="temp1" placeholder="Temperature before (at the start of the day)" name="temp1">
+      </div>
+        <label class="control-label col-sm-2" for="temp2">Temperature 2:</label>
+        <div class="col-sm-10">
+        <input class="form-control" id="temp2" placeholder="Temperature after (at the end of the day)" name="temp2">
+      </div>
+    </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="emp_id">Employee ID:</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="emp_id" placeholder="Enter your employee id" name="emp_id">
+      </div>
+    </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="feeling">Feeling:</label>
+      <div class="col-sm-10">
+        <input class="form-control" id="feeling" placeholder="On a scale of 1-10 how are you feeling? (1 being very bad and 10 being great)" name="feeling">
+      </div>
+    </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
