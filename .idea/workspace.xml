@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/database_connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/database_connector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605515984165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added database connector to travis ci">
+      <created>1605522779047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605522779047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Direct commit from PyCharm to GitHub test" />
     <MESSAGE value="Fixed bugs in the database connector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in the database connector" />
+    <MESSAGE value="Added database connector to travis ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database connector to travis ci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="173" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605514679962">
@@ -162,9 +168,9 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="198" y="27" width="1022" height="737" key="SettingsEditor/64.27.1302.741@64.27.1302.741" timestamp="1605513588950" />
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605515996327">
+    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605522785917">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/64.27.1302.741@64.27.1302.741" timestamp="1605515996327" />
+    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/64.27.1302.741@64.27.1302.741" timestamp="1605522785917" />
   </component>
 </project>
