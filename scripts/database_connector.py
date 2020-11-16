@@ -30,5 +30,6 @@ Please do not un-comment them unnecessarily.
 print(database)
 print(cursor)
 
-'''
 inputData('Test2', 20, 99, 101, 9)
+
+'''
