@@ -19,67 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/covidality/daily_form/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/daily_form/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/-Login-form-Page-BS4-.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/Footer-Basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/Login-Form-Dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/Registration-Form-with-Photo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/gradient-navbar-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/gradient-navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/css/untitled.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/fonts/simple-line-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/Capture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/Screenshot 2020-10-20 230217.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/Screenshot 2020-10-20 230246.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/aldain-austria-316143-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/bg-masthead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/bg-showcase-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/bg-showcase-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/bg-showcase-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/chris-ried-ieic5Tq8YMk-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/e2d2dd1a2d2700d6b5cf11c1f765e646.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/hari.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/harsh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/jason-hogan-YyFwUKzv5FM-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/meeting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/simon-maage-tXiMrX3Gc-g-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/star-sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/testimonials-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/testimonials-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/assets/img/testimonials-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/blank_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/daily form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/covidality/templates/submission-received.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/covidality/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/covidality/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/covidality/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/covidality/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/templates/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/templates/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/templates/assets/js/bs-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/assets/js/bs-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/daily form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605522911931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added daily form">
+      <created>1605531004381</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605531004381</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,36 +161,37 @@
     <MESSAGE value="Fixed bugs in the database connector" />
     <MESSAGE value="Added database connector to travis ci" />
     <MESSAGE value="Removed database connector from travis ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed database connector from travis ci" />
+    <MESSAGE value="Added daily form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added daily form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="173" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605514679962">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="173" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/64.27.1302.741@64.27.1302.741" timestamp="1605514679962" />
-    <state width="1279" height="172" key="GridCell.Tab.0.bottom" timestamp="1605516180888">
+    <state width="1279" height="172" key="GridCell.Tab.0.bottom" timestamp="1605531080473">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1605516180888" />
-    <state width="1279" height="172" key="GridCell.Tab.0.center" timestamp="1605516180886">
+    <state width="1279" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1605531080473" />
+    <state width="1279" height="172" key="GridCell.Tab.0.center" timestamp="1605531080472">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1605516180886" />
-    <state width="1279" height="172" key="GridCell.Tab.0.left" timestamp="1605516180885">
+    <state width="1279" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1605531080472" />
+    <state width="1279" height="172" key="GridCell.Tab.0.left" timestamp="1605531080464">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1605516180885" />
-    <state width="1279" height="172" key="GridCell.Tab.0.right" timestamp="1605516180887">
+    <state width="1279" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1605531080464" />
+    <state width="1279" height="172" key="GridCell.Tab.0.right" timestamp="1605531080472">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1605516180887" />
+    <state width="1279" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1605531080472" />
     <state x="198" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1605513588950">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="198" y="27" width="1022" height="737" key="SettingsEditor/64.27.1302.741@64.27.1302.741" timestamp="1605513588950" />
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605522913821">
+    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605531013228">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/64.27.1302.741@64.27.1302.741" timestamp="1605522913821" />
+    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/64.27.1302.741@64.27.1302.741" timestamp="1605531013228" />
   </component>
 </project>
