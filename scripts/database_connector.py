@@ -9,6 +9,7 @@ database = mysql.connector.connect(
 
 cursor = database.cursor()
 
+
 def getDailyData():
     cursor.execute('SELECT * FROM daily_data')
 

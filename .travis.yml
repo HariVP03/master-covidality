@@ -5,7 +5,9 @@ python:
   
 install:
   - pip install sklearn
+  - pip install mysql-connector-python
 
 #command to run the test suite
 script:
-  - python scripts/AI.py test
+  - python scripts/AI.py
+  - python scripts/database_connector.py
