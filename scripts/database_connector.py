@@ -12,12 +12,15 @@ cursor = database.cursor()
 
 def getDailyData():
     cursor.execute('SELECT * FROM daily_data')
-
-    for entry in cursor:
-        yield entry
+    entries = list()
+    for entry in cursor.fetchall():
+        entries.append(entry)
+    return entries
 
 def inputData(name, age, initialTemp, finalTemp, emp_id='NULL', feeling=5):
 
+    # Getting the timestamp (date, time) at the time of data entry
+    # and entering it in the time_stamp column
     cursor.execute('SELECT current_timestamp()')
     current_timestamp_obj = cursor.fetchone()
     current_timestamp = str(current_timestamp_obj[0])
@@ -25,20 +28,19 @@ def inputData(name, age, initialTemp, finalTemp, emp_id='NULL', feeling=5):
     cursor.execute(f'INSERT INTO daily_data VALUES {name, age, initialTemp, finalTemp, emp_id, feeling, current_timestamp}')
     database.commit()
 
-'''
-The following line(s) of code are only for testing purposes only.
-Please do not un-comment them unnecessarily.
+def debug():
 
-'''
+    if input('Command: ') == 'get_data':
+        print(getDailyData())
 
+    else:
+        name = input('Name: ')
+        age = input('Age: ')
+        initialTemp = input('Initial Temperature: ')
+        finalTemp = input('Final Temperature: ')
+        emp_id = input('Employee ID: ')
+        feeling = input('Feeling: ')
 
-'''
-print(database)
-print(cursor)
-
-inputData('Test2', 19, 75, 76, '10P21SF1033', 5)
-
-'''
-
+        inputData(name, age, initialTemp, finalTemp, emp_id, feeling)
 
 

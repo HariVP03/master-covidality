@@ -2,6 +2,8 @@
 
 This is the Official Covidality AI code.
 
+Class 12 computer project by Harsh Vardhan Shukla and Hari Vishnu Parashar
+
 Please Use the Following Format for Inputting Data:
 
 temp_final: [[t1i, t1f], [t2i, t2f], ...]
@@ -12,6 +14,9 @@ predict_case: [initial temperature, howBadAreYouFeeling]
 
 # The main library for the AI
 from sklearn import tree
+
+# Python file which establishes a connection to MySQL using the Python connector
+import database_connector as db
 
 def AI(temp_list, howBadDoYouFeel, predict_case):
 
@@ -79,28 +84,68 @@ def test():
 
         raise ReferenceError
 
-'''
+# Function that counts the number of unique items in a list
+# This is used to find the number of people who filled their forms that month
+def count_unique(array):
+    count = 0
+    for item in array:
+        if array.count(item) == 1:
+            count += 1
+    return count
 
-Below is the useage of the function.
+# Function that runs the script
+# It will get the data from the database using database_connector.
+# This function needs to be executed ONLY AT THE END OF THE MONTH
+# because it uses the data collected that month to train the AI and make
+# further predictions
+def run():
+    command = input('Command: ')
+    if command == 'generate_report':
+        employee_id = list()
 
-The code below has no meaning whatsoever and has been put there for the sole purpose of showing the
-format of the input to be given.
+        # Connects to the database_connector.py file and executes the
+        # getDailyData() function
+        data = db.getDailyData()
+        for entries in data:
 
-Please DO NOT uncomment to code below as it serves no purpose and might act as hinderence to the 
-working of the script
+            # The fourth index of the tuple returned is the employee ID
+            employee_id.append(entries[4])
 
-'''
-'''
-# Initial Temperature, Final Temperature
-features = [[1, 2], [2, 9], [3, 5], [5, 6]]
+        # Displays the total number of people who filled their forms atleast
+        # once that entire month
+        print(f'Total people who filled the form: {count_unique(employee_id)}')
 
-# How Bad are you Feeling?
-labels = [9, 5, 4, 11]
+        if input('Do you want to continue? [y]: ') == 'y':
 
-# Here 2 is the initial temperature and 10 is how bad you are feeling
-predict_this = [[1, 6]]
+            # This dictionary will be used to store the employee ID as key and
+            # prediction made by the AI as value
+            employee_predictions = dict()
 
-# Initial Temperature, Feeling ELement
-print(AI(features, labels, predict_this))
-'''
+            # This block of code loops through each unique employee and collects their
+            # temperatures in a list of the form montioned at the start and how they
+            # felt each day
+            for employee in employee_id:
+                temperatures = list()
+                feelings = list()
+                for entries in data:
+                    if entries[4] == employee:
+                        temperatures.append([entries[2], entries[3]])
+                        feelings.append(entries[5])
+
+                # Calculating the average initial temperature and feeling that month
+                # This will be used as a prediction case for the AI
+                sum_ = 0
+                for i,j in temperatures:
+                    sum_ += i
+                mean_temp = int(sum_/len(temperatures))
+                mean_feeling = int(sum(feelings)/len(feelings))
+
+                # Making prediction
+                predicted_finalTemp = AI(temperatures, feelings, [[mean_temp, mean_feeling]])
+
+                employee_predictions[employee] = predicted_finalTemp[0]
+
+        else:
+            quit()
+
 
