@@ -115,7 +115,7 @@ def run():
         # once that entire month
         print(f'Total people who filled the form: {count_unique(employee_id)}')
 
-        if input('Do you want to continue? [y]: ') == 'y':
+        if input('Do you want to continue? [y/n]: ') == 'y':
 
             # This dictionary will be used to store the employee ID as key and
             # prediction made by the AI as value
@@ -145,7 +145,15 @@ def run():
 
                 employee_predictions[employee] = predicted_finalTemp[0]
 
+            if input('Do you want to enter the predictions in the database? [y/n]: ') == 'y':
+
+                month_year = input('Enter the date in mm_yy format: ')
+                for emp_id in employee_predictions:
+                    db.inputReport(emp_id, month_year, employee_predictions[emp_id])
+                
+
         else:
             quit()
 
+run()
 

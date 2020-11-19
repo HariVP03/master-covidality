@@ -28,6 +28,11 @@ def inputData(name, age, initialTemp, finalTemp, emp_id='NULL', feeling=5):
     cursor.execute(f'INSERT INTO daily_data VALUES {name, age, initialTemp, finalTemp, emp_id, feeling, current_timestamp}')
     database.commit()
 
+def inputReport(emp_id, month_year, predictedFinalTemp):
+
+    cursor.execute(f'INSERT INTO predictions VALUES {emp_id, month_year, predictedFinalTemp}')
+    database.commit()
+
 def debug():
 
     if input('Command: ') == 'get_data':
