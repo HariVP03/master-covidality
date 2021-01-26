@@ -19,10 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/covidality/daily_form/database_connector.py" afterDir="false" />
+    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="User can now directly add data to the database from the website">
+      <change afterPath="$PROJECT_DIR$/covidality/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Covidality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Covidality.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/daily_form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/daily_form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/userprofile/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +56,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/covidality/daily_form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/covidality/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/covidality/templates" />
       <recent name="$PROJECT_DIR$/covidality/daily_form" />
       <recent name="$PROJECT_DIR$/covidality/daily_form/migrations" />
-      <recent name="$PROJECT_DIR$/covidality/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AI">
+  <component name="RunManager" selected="Python.test">
     <configuration name="AI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Covidality" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,10 +112,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Covidality" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AI" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.database_connector" />
+        <item itemvalue="Python.AI" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605780482968</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="User can now directly add data to the database from the website">
+      <created>1606722675624</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606722675624</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,44 +253,7 @@
     <MESSAGE value="Added some missing files" />
     <MESSAGE value="Established connection between AI and database connector." />
     <MESSAGE value="AI can now input predictions in the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI can now input predictions in the database" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="173" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605514679962">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state x="173" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/64.27.1302.741@64.27.1302.741" timestamp="1605514679962" />
-    <state width="1279" height="172" key="GridCell.Tab.0.bottom" timestamp="1605787380847">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1605787380847" />
-    <state width="1279" height="172" key="GridCell.Tab.0.center" timestamp="1605787380846">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1605787380845" />
-    <state width="1279" height="172" key="GridCell.Tab.0.left" timestamp="1605787380845">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1605787380845" />
-    <state width="1279" height="172" key="GridCell.Tab.0.right" timestamp="1605787380846">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state width="1279" height="172" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1605787380846" />
-    <state x="198" y="27" width="1022" height="737" key="SettingsEditor" timestamp="1605513588950">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state x="198" y="27" width="1022" height="737" key="SettingsEditor/64.27.1302.741@64.27.1302.741" timestamp="1605513588950" />
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1605780487267">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state x="310" y="119" width="800" height="563" key="Vcs.Push.Dialog.v2/64.27.1302.741@64.27.1302.741" timestamp="1605780487267" />
-    <state x="357" y="114" width="705" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1605635652975">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state x="357" y="114" width="705" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/64.27.1302.741@64.27.1302.741" timestamp="1605635652975" />
-    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1605539464577">
-      <screen x="64" y="27" width="1302" height="741" />
-    </state>
-    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/64.27.1302.741@64.27.1302.741" timestamp="1605539464577" />
+    <MESSAGE value="User can now directly add data to the database from the website" />
+    <option name="LAST_COMMIT_MESSAGE" value="User can now directly add data to the database from the website" />
   </component>
 </project>

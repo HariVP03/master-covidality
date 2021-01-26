@@ -8,6 +8,6 @@ def profile(request):
     return render(request, 'index.html', {
         'health_status': 'health_status',
         'username': 'username',
-        'daily_report': 'daily_report',
+        'prediction': 'prediction',
         'pending_fields': 'pending_fields'
     })
