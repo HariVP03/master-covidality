@@ -3,7 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Poppins;
+  background-color: rgb(234, 242, 248);
+}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -16,7 +19,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: rgb(52, 152, 219);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -79,15 +82,14 @@ span.psw {
     <label for="password"><b>Password</b></label>
     <input type="text" placeholder="Enter Password" name="password" id="password" required>
 
-    <button type="submit" action="login">Login</button>
+    <button type="submit" action="login"><font face="Poppins">Login</font></button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+  <div class="container" style="background-color:#EAF2F8">
+    <button type="button" class="cancelbtn"><a href="/" style="text-decoration:None;"><font face="Poppins" color="white">Cancel</font></a></button>
   </div>
 </form>
 

@@ -67,11 +67,45 @@ def login(request):
     username = dailyData[0][0]
     prediction = predictedData[0][1]
     health_status = 'To Be Evaluated'
-    pending_fields = 'None'
+
+    try:
+        data1 = dailyData[-1]
+    except:
+        data1 = [' ' for _ in range(7)]
+    try:
+        data2 = dailyData[-2]
+    except:
+        data2 = [' ' for _ in range(7)]
+    try:
+        data3 = dailyData[-3]
+    except:
+        data3 = [' ' for _ in range(7)]
+    try:
+        data4 = dailyData[-4]
+    except:
+        data4 = [' ' for _ in range(7)]
+    try:
+        data5 = dailyData[-5]
+    except:
+        data5 = [' ' for _ in range(7)]
+
+    data1_str = f'Temperature 1: {data1[2]}, Temperature 2: {data1[3]}, Feeling: {data1[5]}, Time: {data1[6]}'
+    data2_str = f'Temperature 1: {data2[2]}, Temperature 2: {data2[3]}, Feeling: {data2[5]}, Time: {data2[6]}'
+    data3_str = f'Temperature 1: {data3[2]}, Temperature 2: {data3[3]}, Feeling: {data3[5]}, Time: {data3[6]}'
+    data4_str = f'Temperature 1: {data4[2]}, Temperature 2: {data4[3]}, Feeling: {data4[5]}, Time: {data4[6]}'
+    data5_str = f'Temperature 1: {data5[2]}, Temperature 2: {data5[3]}, Feeling: {data5[5]}, Time: {data5[6]}'
 
     return render(request, 'index.html', {
         'health_status': health_status,
         'username': username,
         'prediction': prediction,
-        'pending_fields': pending_fields
+        'recent_input1': data1_str,
+        'recent_input2': data2_str,
+        'recent_input3': data3_str,
+        'recent_input4': data4_str,
+        'recent_input5': data5_str,
     })
+
+#def todo(request):
+
+    # Code Here

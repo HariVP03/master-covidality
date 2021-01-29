@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="User can now directly add data to the database from the website">
-      <change afterPath="$PROJECT_DIR$/covidality/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Covidality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Covidality.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/daily_form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/daily_form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/userprofile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/userprofile/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.AI">
     <configuration name="AI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Covidality" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AI" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.database_connector" />
-        <item itemvalue="Python.AI" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606722675624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Website can display predicted temperature, Added login (no password feature), Established communication between Django and predictions database">
+      <created>1611686800609</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611686800609</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +262,7 @@
     <MESSAGE value="Established connection between AI and database connector." />
     <MESSAGE value="AI can now input predictions in the database" />
     <MESSAGE value="User can now directly add data to the database from the website" />
-    <option name="LAST_COMMIT_MESSAGE" value="User can now directly add data to the database from the website" />
+    <MESSAGE value="Website can display predicted temperature, Added login (no password feature), Established communication between Django and predictions database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Website can display predicted temperature, Added login (no password feature), Established communication between Django and predictions database" />
   </component>
 </project>
