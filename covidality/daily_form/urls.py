@@ -7,4 +7,6 @@ urlpatterns = [
     path('form/fill_form', views.fill_form),
     path('loginForm', views.loginForm),
     path('login', views.login),
+    path('table', views.table),
+    path('loginTable', views.loginTable)
 ]

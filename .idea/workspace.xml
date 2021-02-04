@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="User can now directly add data to the database from the website">
+      <change afterPath="$PROJECT_DIR$/covidality/templates/loginTable.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/daily_form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/daily_form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covidality/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/daily form.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/daily form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/covidality/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily form.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/covidality/templates" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611686800609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed some bugs, Updated the look of the landing page, profile, login page">
+      <created>1611941626538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611941626538</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +270,7 @@
     <MESSAGE value="AI can now input predictions in the database" />
     <MESSAGE value="User can now directly add data to the database from the website" />
     <MESSAGE value="Website can display predicted temperature, Added login (no password feature), Established communication between Django and predictions database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website can display predicted temperature, Added login (no password feature), Established communication between Django and predictions database" />
+    <MESSAGE value="Fixed some bugs, Updated the look of the landing page, profile, login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some bugs, Updated the look of the landing page, profile, login page" />
   </component>
 </project>

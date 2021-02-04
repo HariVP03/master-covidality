@@ -4,9 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
+
   background-color: rgb(234, 242, 248);
+  font-family:Lato,Helvetica Neue,Helvetica,Arial,sans-serif
 }
-body,h1,h2,h3,h4,h5,h6{font-family:Lato,Helvetica Neue,Helvetica,Arial,sans-serif}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -71,18 +72,18 @@ span.psw {
 </head>
 <body>
 
-<h2>Login Form</h2>
+<h2>Login to see your Data</h2>
 
-<form action="login" method="POST">
+<form action="loginTable" method="POST">
 {% csrf_token %}
   <div class="container">
     <label for="emp_id"><b>Employee ID</b></label>
-    <input type="text" placeholder="Enter Username" name="emp_id" id="emp_id" required>
+    <input type="text" placeholder="Enter Employee ID" name="emp_id" id="emp_id" required>
 
     <label for="password"><b>Password</b></label>
     <input type="text" placeholder="Enter Password" name="password" id="password" required>
 
-    <button type="submit" action="login"><font face="Poppins">Login</font></button>
+    <button type="submit" action="loginTable"><font face="Poppins">Login</font></button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>

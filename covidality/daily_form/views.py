@@ -1,5 +1,4 @@
 from django.shortcuts import render
-
 import mysql.connector
 
 database = mysql.connector.connect(
@@ -106,6 +105,44 @@ def login(request):
         'recent_input5': data5_str,
     })
 
-#def todo(request):
+def table(request):
 
-    # Code Here
+    return render(request, 'loginTable.html')
+
+def html_format_table(temp1, temp2, feeling, time):
+
+    temp1.reverse()
+    temp2.reverse()
+    feeling.reverse()
+    time.reverse()
+
+    html_code = ''
+    for i in range(0, len(temp1)):
+        html_code += f'<tr> <td>{temp1[i]}</td><td>{temp2[i]}</td><td>{feeling[i]}</td><td>{time[i]}</td></tr>'
+    return html_code
+
+def loginTable(request):
+    emp_id = request.POST.get('emp_id')
+    password = request.POST.get('password')
+
+    temp1 = list()
+    temp2 = list()
+    feeling = list()
+    time = list()
+
+    dailyData = getDailyData(emp_id)
+    username = dailyData[0][0]
+    html_code = list()
+    for entry in dailyData:
+        temp1.append(entry[2])
+        temp2.append(entry[3])
+        feeling.append(entry[5])
+        time.append(entry[6])
+
+    html_code.append(html_format_table(temp1, temp2, feeling, time))
+
+    table_data = ''.join(html_code)
+    return render(request, 'table.html', {
+        'table_data': table_data,
+        'username': username
+    })
