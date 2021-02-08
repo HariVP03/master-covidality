@@ -64,7 +64,7 @@ def login(request):
     predictedData = getPrediction(emp_id)
 
     username = dailyData[0][0]
-    prediction = predictedData[0][1]
+    prediction = predictedData[-1][1]
     health_status = 'To Be Evaluated'
 
     try:
@@ -142,7 +142,9 @@ def loginTable(request):
     html_code.append(html_format_table(temp1, temp2, feeling, time))
 
     table_data = ''.join(html_code)
+    print(getPrediction('10p21sf1033'))
     return render(request, 'table.html', {
         'table_data': table_data,
         'username': username
     })
+
