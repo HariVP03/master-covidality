@@ -30,7 +30,7 @@ def AI(temp_list, howBadDoYouFeel, predict_case):
     # Evaluates and returns 1 for feeling BAD(>=7) and 0 for feeling FINE
     def evaluateFeel(howBadDoYouFeel):
 
-        if howBadDoYouFeel>=7:
+        if howBadDoYouFeel>=5:
             feelingBool = 1
         else:
             feelingBool = 0
@@ -111,10 +111,6 @@ def run():
             # The fourth index of the tuple returned is the employee ID
             employee_id.append(entries[4])
 
-        # Displays the total number of people who filled their forms atleast
-        # once that entire month
-        print(f'Total people who filled the form: {count_unique(employee_id)}')
-
         if input('Do you want to continue? [y/n]: ') == 'y':
 
             # This dictionary will be used to store the employee ID as key and
@@ -137,8 +133,8 @@ def run():
                 sum_ = 0
                 for i,j in temperatures:
                     sum_ += i
-                mean_temp = int(sum_/len(temperatures))
-                mean_feeling = int(sum(feelings)/len(feelings))
+                mean_temp = temperatures[-1][1]
+                mean_feeling = feelings[-1]
 
                 # Making prediction
                 predicted_finalTemp = AI(temperatures, feelings, [[mean_temp, mean_feeling]])
