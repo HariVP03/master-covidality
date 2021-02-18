@@ -30,9 +30,9 @@ Covidality uses a number of open source projects to work properly:
 
 ### The Team
 
-* Geetu Munjal - Our Teacher, she taught us everything we know
-* Harsh Vardhan Shukla
-* Hari Vishnu Parashar
+* Geetu Munjal - Our Teacher, Our Inspiration.
+* Harsh Vardhan Shukla -  Founder - Covidality, Head Analyst , Developer - Frontend - Android Application
+* Hari Vishnu Parashar -  Founder - Covidality, Head Developer , Developer - Backend - AI Algorithm
 
 ### Todos
 
