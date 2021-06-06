@@ -27,7 +27,7 @@ def AI(temp_list, howBadDoYouFeel, predict_case):
     trainX = list()
     trainY = list()
 
-    # Evaluates and returns 1 for feeling BAD(>=7) and 0 for feeling FINE
+    # Evaluates and returns 1 for feeling BAD(>=5) and 0 for feeling FINE
     def evaluateFeel(howBadDoYouFeel):
 
         if howBadDoYouFeel>=5:
@@ -77,9 +77,8 @@ def test():
         predict_this = [[1, 6]]
 
         # Initial Temperature, Feeling ELement
-        AI(features, labels, predict_this)
+        print(AI(features, labels, predict_this))
 
-        print(True)
     except:
 
         raise ReferenceError
@@ -133,11 +132,11 @@ def run():
                 sum_ = 0
                 for i,j in temperatures:
                     sum_ += i
-                mean_temp = temperatures[-1][1]
-                mean_feeling = feelings[-1]
+                mean_temp = sum_/len(temperatures)
+                predict_feeling = 5
 
                 # Making prediction
-                predicted_finalTemp = AI(temperatures, feelings, [[mean_temp, mean_feeling]])
+                predicted_finalTemp = AI(temperatures, feelings, [[mean_temp, predict_feeling]])
 
                 employee_predictions[employee] = predicted_finalTemp[0]
 
