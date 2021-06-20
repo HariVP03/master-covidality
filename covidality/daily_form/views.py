@@ -148,3 +148,10 @@ def loginTable(request):
         'username': username
     })
 
+def custom_404(request, exception, template_name="404.html"):
+    response = render_to_response(template_name)
+    response.status_code = 404
+    return response
+
+def custom_500(request, *args, **argv):
+    return render(request, '500.html', status=500)

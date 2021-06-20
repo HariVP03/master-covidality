@@ -74,9 +74,9 @@ def test():
         # How Bad are you Feeling?
         labels = [9, 5, 4, 11]
         # Here 2 is the initial temperature and 10 is how bad you are feeling
-        predict_this = [[1, 6]]
+        predict_this = [[6, 9]]
 
-        # Initial Temperature, Feeling ELement
+        # Initial Temperature, Feeling Element
         print(AI(features, labels, predict_this))
 
     except:

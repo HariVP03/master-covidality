@@ -10,3 +10,6 @@ urlpatterns = [
     path('table', views.table),
     path('loginTable', views.loginTable)
 ]
+
+handler404 = 'daily_form.views.custom_404'
+handler500 = 'daily_form.views.custom_500'

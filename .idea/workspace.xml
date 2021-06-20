@@ -19,8 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="User can now directly add data to the database from the website">
+    <list default="true" id="fde1b4b6-5081-439a-87cb-9cf4316cd86c" name="Default Changelist" comment="FInal Commit">
+      <change afterPath="$PROJECT_DIR$/covidality/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covidality/templates/login2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covidality/templates/loginTable2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/covidality/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/covidality/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/daily_form/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/daily_form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/daily_form/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/loginTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/loginTable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidality/templates/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidality/templates/table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/AI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AI" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.database_connector" />
+        <item itemvalue="Python.AI" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613663746877</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="FInal Commit">
+      <created>1622946642890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622946642890</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +307,7 @@
     <MESSAGE value="Added a table to see every entry, Tweaked the look" />
     <MESSAGE value="Fixed bugs" />
     <MESSAGE value="Fixed some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some bugs" />
+    <MESSAGE value="FInal Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="FInal Commit" />
   </component>
 </project>
